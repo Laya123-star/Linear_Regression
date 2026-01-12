@@ -142,7 +142,7 @@ ML-Assignment-2-Regression/
 
 ## 🚀 How to Run the Project
 
-1. Open the notebook in **Google Colab** or Jupyter Notebook.
+1. Open the notebook in **Google Colab**.
 2. Run all cells in sequence.
 3. The notebook will perform preprocessing, model training, evaluation, and visualization automatically.
 
