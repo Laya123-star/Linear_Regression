@@ -94,6 +94,46 @@ The dataset represents housing information collected from California census data
 
 ---
 
+## 📊 Model Performance & Comparison
+
+The performance of different regression models is summarized below:
+
+| Model | MAE | MSE | R² Score |
+|------|------|------|----------|
+| Linear Regression | 0.4603 | 0.3697 | 0.5953 |
+| Decision Tree Regressor (Pruned) | 0.4688 | 0.3907 | 0.5724 |
+| Random Forest Regressor | 0.3305 | 0.2223 | 0.7567 |
+| Gradient Boosting Regressor | 0.3325 | 0.2157 | 0.7639 |
+| Support Vector Regressor | 0.3377 | 0.2384 | 0.7390 |
+
+---
+
+### 🏆 Best Performing Model
+
+**Gradient Boosting Regressor**  
+
+✔ R² Score: **0.7639**  
+
+✔ Lowest error among all models  
+
+✔ Best overall performance  
+
+---
+
+### ⚠️ Worst Performing Model
+
+**Decision Tree Regressor (Pruned)**  
+❌ R² Score: **0.5724**  
+
+❌ Higher error compared to other models  
+
+---
+
+### 📌 Key Insight
+
+- Ensemble models (**Random Forest & Gradient Boosting**) outperform traditional models
+  
+- Gradient Boosting provides the most accurate and stable predictions  
 ## 📊 Visualizations Included
 
 | Purpose | Visualization Type |
