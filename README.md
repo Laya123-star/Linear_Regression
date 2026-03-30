@@ -1,8 +1,6 @@
 # 🏠 California Housing Regression Analysis
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)  ![Data Analysis](https://img.shields.io/badge/DataAnalysis-EDA-orange)  
-![Visualization](https://img.shields.io/badge/Visualization-Seaborn-green)  
-![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+![Python](https://img.shields.io/badge/Python-3.9-blue)  ![Data Analysis](https://img.shields.io/badge/DataAnalysis-EDA-orange)  ![Visualization](https://img.shields.io/badge/Visualization-Seaborn-green)  ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
 
 A supervised machine learning project focused on applying and comparing multiple regression algorithms on real-world housing data.
 
