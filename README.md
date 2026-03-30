@@ -1,29 +1,41 @@
 # 🏠 California Housing Regression Analysis
 
-A supervised machine learning project focused on applying and comparing
-multiple regression algorithms on real-world housing data.
+![Python](https://img.shields.io/badge/Python-3.9-blue)  
+![Data Analysis](https://img.shields.io/badge/DataAnalysis-EDA-orange)  
+![Visualization](https://img.shields.io/badge/Visualization-Seaborn-green)  
+![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+
+A supervised machine learning project focused on applying and comparing multiple regression algorithms on real-world housing data.
+
+---
+
+## 🚀 Run Notebook in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RMY6E-UBoBE8JtKDv-HwjVZDJfFYinUR)
 
 ---
 
 ## 📘 Project Overview
 
-- This project performs a detailed regression analysis using the **California Housing dataset**
-  available from the `sklearn` library.
-- The dataset contains **20,640 records and 8 numerical features**, along with a continuous
-  target variable representing median house value.
-- The objective is to understand how different housing-related features influence house prices
-  and to compare the performance of multiple regression models.
+- This project performs a detailed regression analysis using the **California Housing dataset** available from the `sklearn` library.  
+- The dataset contains **20,640 records and 8 numerical features**, along with a continuous target variable representing median house value.  
+- The objective is to understand how different housing-related features influence house prices and compare multiple regression models.
 
-**🎯 Objective:**
+---
 
-The project includes:
+## 🎯 Objective
 
- 🔹 Data loading and preprocessing  
- 🔹 Feature scaling and data preparation  
- 🔹 Implementation of multiple regression algorithms  
- 🔹 Model evaluation and comparison  
- 🔹 Visualizations and result interpretation  
- 🔹 Clean and reproducible Google Collab Notebook  
+🔹 Data loading and preprocessing  
+
+🔹 Feature scaling and data preparation
+
+🔹 Implementation of multiple regression algorithms  
+
+🔹 Model evaluation and comparison  
+
+🔹 Visualizations and result interpretation  
+
+🔹 Clean and reproducible Google Colab notebook  
 
 ---
 
@@ -47,86 +59,75 @@ The dataset represents housing information collected from California census data
 
 ## 🧹 Preprocessing Steps
 
-The following preprocessing steps were performed to prepare the data for modeling:
+✔ Dataset loaded using `fetch_california_housing`  
 
-✔ **Dataset Loading:**  
-The California Housing dataset was loaded using `fetch_california_housing` from sklearn.
+✔ Converted to Pandas DataFrame  
 
-✔ **DataFrame Conversion:**  
-The dataset was converted into a Pandas DataFrame for easier handling and analysis.
+✔ Checked for missing values (none found)  
 
-✔ **Missing Value Check:**  
-The dataset was checked for missing values, and no missing entries were found.
+✔ Outlier removal using IQR method  
 
-✔ **Outlier Removal:**  
-Outliers were detected and removed from the target variable (`MedHouseValue`) using the
-Interquartile Range (IQR) method to reduce the influence of extreme house prices.
+✔ Train–Test split performed 
 
-✔ **Train–Test Split:**  
-The dataset was split into training and testing sets to evaluate model performance on unseen data.
-
-✔ **Feature Scaling:**  
-Standardization was applied where required (Linear Regression and SVR) to ensure features
-were on a comparable scale.
+✔ Feature scaling applied where required  
 
 ---
 
 ## 📈 Regression Models Implemented
 
-The following regression algorithms were implemented and evaluated:
-
-- Linear Regression  
-- Decision Tree Regressor  
-- Random Forest Regressor  
-- Gradient Boosting Regressor  
+- Linear Regression
+  
+- Decision Tree Regressor
+  
+- Random Forest Regressor
+  
+- Gradient Boosting Regressor
+  
 - Support Vector Regressor (SVR)  
-
-Each model was trained using the same dataset and evaluated using consistent metrics.
 
 ---
 
 ## 📊 Model Evaluation Metrics
 
-Each regression model was evaluated using:
-
-- **Mean Absolute Error (MAE)**  
-- **Mean Squared Error (MSE)**  
-- **R-squared Score (R²)**  
-
-These metrics help measure prediction accuracy and overall model performance.
+- Mean Absolute Error (MAE)
+  
+- Mean Squared Error (MSE)
+  
+- R² Score  
 
 ---
 
 ## 📊 Visualizations Included
 
 | Purpose | Visualization Type |
-|-------|-------------------|
+|--------|-------------------|
 | Actual vs Predicted Values | Scatter Plot |
 | Feature Importance | Bar Chart |
 | Model Comparison | Tabular Comparison |
-
-The visualizations help interpret model performance and understand feature influence.
 
 ---
 
 ## 🧠 Key Observations
 
-- ✔ Ensemble models performed better than basic regression models.
-- ✔ Gradient Boosting Regressor achieved the highest R² score.
-- ✔ Median income and geographic features showed strong influence on house prices.
-- ✔ Simpler models were easier to interpret but less accurate.
+✔ Ensemble models performed better than basic models  
+
+✔ Gradient Boosting achieved the highest R² score  
+
+✔ Median income and geographic features strongly influence house prices  
+
+✔ Simpler models are easier to interpret but less accurate  
 
 ---
 
 ## 🛠 Tech Stack
 
 | Tool | Purpose |
-|----|--------|
+|------|--------|
 | Python | Programming language |
 | Pandas | Data manipulation |
 | NumPy | Numerical operations |
-| Matplotlib | Data visualization |
-| Scikit-learn | Machine learning models |
+| Matplotlib | Visualization |
+| Scikit-learn | Machine learning |
 | Google Colab | Execution environment |
 
 ---
@@ -135,20 +136,66 @@ The visualizations help interpret model performance and understand feature influ
 
 ML-Assignment-2-Regression/
 
-├── 📄 Regression.ipynb  
-├── 📄 README.md  
+├── Regression.ipynb  
+
+├── README.md  
 
 ---
 
 ## 🚀 How to Run the Project
 
-1. Open the notebook in **Google Colab**.
-2. Run all cells in sequence.
-3. The notebook will perform preprocessing, model training, evaluation, and visualization automatically.
+1️⃣ Open the notebook using the Colab link above  
+
+2️⃣ Run all cells sequentially
+
+3️⃣ View preprocessing, model training, evaluation, and visualizations  
 
 ---
 
-## 📌 Submission Note
+## 📌 Academic Submission
 
-This repository is submitted as part of an academic assignment for evaluating
-regression techniques in supervised learning.
+This project was developed as part of a **Python Module / Machine Learning academic assignment**, demonstrating the application of regression techniques on real-world housing data. It includes data preprocessing, exploratory data analysis, model building, evaluation, and interpretation of results.
+
+---
+
+## ⚠️ Limitations
+
+- Dataset is limited to California region only
+- 
+- External economic and market factors are not included
+- 
+- Outlier removal may affect real-world interpretation
+-  
+- Models may not generalize well to other regions
+-  
+- Limited feature set restricts deeper insights  
+
+---
+
+## 📌 Future Enhancements
+
+- Use larger and more diverse datasets
+- 
+- Apply advanced models (XGBoost, LightGBM)
+- 
+- Perform hyperparameter tuning
+- 
+- Deploy as a web application (Streamlit)
+-  
+- Add interactive dashboards  
+
+---
+
+## 👤 Author
+
+**Name:** Laya Mary Joy  
+
+**Organization:** Entri Elevate  
+
+**Date:** January 15, 2026  
+
+---
+
+## ⭐ Acknowledgment
+
+Thanks to **Entri Elevate** for guidance and support throughout this project.
